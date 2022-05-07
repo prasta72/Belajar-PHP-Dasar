@@ -1,0 +1,19 @@
+{
+    "name": "php/belajar-php-composer",
+    "description": "belajar aja dong",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PrastaKeren\\" : "src/"
+        }
+    },
+    "repositories":[{
+        "type" : "vcs",
+        "url": "https://github.com/prasta72/belajar-php-composer-hello"
+
+    }] ,
+    "require": {
+        "monolog/monolog" : "2.5.0",
+        "prasta/belajar-composer-liblary" : "1.0.0"
+    }
+}
